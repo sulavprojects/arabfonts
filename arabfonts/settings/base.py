@@ -32,6 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SITE_ID = 1
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
